@@ -21,6 +21,10 @@ git branch -M "new name"  (to rename branch)
 git switch <branch name> (to navigate or move from one branch to another)
 git branch <branch name> (to make new branch)
 git branch -d <branch name> (to delete branch)  can't delete the working branch 
+git pull origin main (to pull merged branch on VS code from github)
+git merge <branch name>  (merge branch with opened branch)
+git log (to check all commits till done)
+git reset HEAD~1 (the latest commit is called HEAD & ~1 means to shift HEAD one step back) ,(print q to quit)
 
 These are common Git commands used in various situations:
 
